@@ -105,7 +105,7 @@ def main():
 
         # Provide download link for rewritten text
         st.download_button(
-            label="Download Rewritten Text",
+            label="Dl Rewritten Text",
             data=rewritten_text.encode('utf-8'),
             file_name="rewritten_text.txt",
             mime="text/plain"
