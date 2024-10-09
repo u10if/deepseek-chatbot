@@ -81,7 +81,7 @@ def rewrite_text_with_deepseek(text_chunks):
 
 # Streamlit app
 def main():
-    st.title("Document Rewriter with DeepSeek AI write by kiarash[ https://github.com/u10if]")
+    st.title("Document Rewriter with DeepSeek AI write by u10if[ https://github.com/u10if]")
 
     # File upload
     uploaded_files = st.file_uploader("Choose files", type=["pdf", "docx", "csv"], accept_multiple_files=True)
