@@ -103,7 +103,7 @@ def main():
         st.write("Rewritten Text:")
         st.write(rewritten_text)
 
-        # Provide download link for rewritten text
+        # Provide downloads link for rewritten text
         st.download_button(
             label="Dl Rewritten Text",
             data=rewritten_text.encode('utf-8'),
